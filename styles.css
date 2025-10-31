@@ -1,0 +1,99 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: white;
+}
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+/* Navigation */
+nav {
+  background: #023e8a;
+  padding: 10px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #90e0ef;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+section h2 {
+  color: #0077b6;
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+section p, section ul {
+  font-size: 1em;
+}
+
+/* Projects List */
+#projects ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+#projects li {
+  margin-bottom: 10px;
+}
+
+/* Skills */
+#skills p {
+  background: #e0f7fa;
+  padding: 10px;
+  border-left: 5px solid #00b4d8;
+  font-weight: bold;
+}
+
+/* Contact */
+#contact p {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+}
